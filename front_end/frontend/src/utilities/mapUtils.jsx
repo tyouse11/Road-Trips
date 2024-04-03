@@ -1,7 +1,7 @@
 // /utilities/mapUtils.jsx
 
 const generateMapUrl = (latitude, longitude) => {
-    const apiKey = 'AIzaSyAQq_WX8fNdhF3pp9Z9aLp8oLr4z3ICLJ0'; // Your Google Maps API key
+    const apiKey = 'apiKey'; // Your Google Maps API key
     const size = '400x300'; // Size of the map image
     const zoom = 11; // Zoom level
     const marker = `markers=color:red%7Clabel:A%7C${latitude},${longitude}`; // Add a marker at the destination's coordinates
